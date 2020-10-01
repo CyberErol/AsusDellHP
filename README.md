@@ -1,6 +1,6 @@
 # AsusDellHP
 
-**Väike eelarve kalkulaator.**
+**idk.**
 
 ## Info
 
