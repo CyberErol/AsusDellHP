@@ -1,124 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
-html {
-}
+
 section {
   text-align: center;
 }
 body {
-  background: black;
-}
-
-.clock {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  color: #17d4fe;
-  font-size: 60px;
-  font-family: Orbitron;
-  letter-spacing: 7px;
-}
-body {
   background-color: black;
 }
-
 table {
-  border-collapse: collapse;
-  position: absolute;
-  left: 14%;
-  margin-left: -155px;
-  top: 150px;
-}
-
-td {
-  border: 2px solid #333;
-  height: 100px;
-  width: 100px;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 20px;
-  cursor: pointer;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  text-align: justify;
-  letter-spacing: 1px;
-  background: #2c3e50;
-  color: #fff;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: gray;
-}
-
-img {
-  margin: 10px;
-  height: 30px;
-  width: auto;
-}
-
-h2 {
-  font-size: 20px;
-}
-.container {
-  display: flex;
-  background-color: red;
-  left: 25%;
-}
-.logo {
-  justify-content: left;
-  width: 50px;
-  background-color: rgb(244, 130, 34);
-}
-
-.search {
-  justify-content: center;
-  width: 30vh;
-  background-color: white;
-}
-
-.login {
-  justify-content: right;
-  background-color: white;
-}
-
-.button {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
-  padding: 0 20px;
-  text-align: center;
-  text-decoration: none;
-  font: bold 12px/25px Arial, sans-serif;
-
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
-
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
-    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
-  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
-    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
-    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
-
-  -webkit-transition: all 0.15s ease;
-  -moz-transition: all 0.15s ease;
-  -o-transition: all 0.15s ease;
-  -ms-transition: all 0.15s ease;
-  transition: all 0.15s ease;
-}
-
-@media only screen and (max-width: 800px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
+    border-collapse: collapse;
+    position: absolute;
+    left: 14%;
+    margin-left: -10px;
+    top: 150px;
   }
-}
+
+  td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    color: #8676ec;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  h1 {
+      font-size: 20px;
+      color: #8676ec;
+  }
+
+  h2 {
+      color: #8676ec;
+      font-size: 20px;
+      margin-left: 590px;
+      margin-top: 100px;
+  }
