@@ -4,7 +4,20 @@ html {
 section {
   text-align: center;
 }
+body {
+  background: black;
+}
 
+.clock {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
 body {
   background-color: black;
 }
@@ -51,8 +64,10 @@ img {
 h2 {
   font-size: 20px;
 }
-.main {
+.container {
   display: flex;
+  background-color: red;
+  left: 25%;
 }
 .logo {
   justify-content: left;
