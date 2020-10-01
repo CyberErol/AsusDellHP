@@ -1,73 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+
 html {
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    letter-spacing: 1px;
-    background: #2c3e50;
-    color: #fff;
+section {
+    text-align: center;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: gray;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 img {
-    margin: 10px;
-	height: 30px;
-	width: auto;
+    margin-left: 0;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    font-size: large;
+    font-weight: 500;
 }
 
 h2 {
-    padding: 5px;
+    font-size: small;
+    font-weight: 600;
+    padding: 14px 16px;
+}
+
+.year-month {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.container {
     justify-content: center;
-    font-size: 15px;
+    display: flex;
+    background-color: silver;
+    left: 25%;
+}
+
+.topnav {
+    padding: 0px;
+    justify-content: left;
+    overflow: hidden;
+    background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
+    position: relative;
+    z-index: 1;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    display: block;
+}
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.active a:hover {
+    background-color: silver;
     color: black;
 }
 
-.logo {
-	justify-content: left;
-	width: 50px;
-	 background-color: rgb(244, 130, 34);
+.topnav a.icon:hover {
+    background-color: silver;
+    color: black;
 }
 
-.search {
-    justify-content: center;
-	width: 30vh;
-	background-color: white;
+.active {
+    background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
+    color: white;
 }
 
-.login {
-    justify-content: right;
-	background-color: white;
-}
-
-.button {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
-    padding: 0 20px;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px/25px Arial, sans-serif;
- 
-    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
- 
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
- 
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
-    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
-    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
- 
-    -webkit-transition: all 0.15s ease;
-    -moz-transition: all 0.15s ease;
-    -o-transition: all 0.15s ease;
-    -ms-transition: all 0.15s ease;
-    transition: all 0.15s ease;
-}
