@@ -32,4 +32,4 @@ Põhiline töövahend oli **Visual Studio Code**.
 - Carlos Tuuling
 - Eva Bürkland
 - Tiiu Tuhkanen
-- dk
+- Marcus
