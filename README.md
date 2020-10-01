@@ -24,10 +24,12 @@ Põhiline töövahend oli **Visual Studio Code**.
 
 ## Tiimist
 
-### Meeskond koosnes viiest liikmest:
+### Meeskond koosnes seitmest liikmest:
 
-- name _Projekti juht_
-- name _Disain, programeerija_
-- name _Programeerija_
-- name _Programeerija_
-- name _Programeerija_
+- Erol Trumm 
+- Arno Kosk
+- Kevin Reinov
+- Carlos Tuuling
+- Eva Bürkland
+- Tiiu Tuhkanen
+- dk
