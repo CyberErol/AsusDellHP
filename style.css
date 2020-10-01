@@ -1,1 +1,28 @@
-.apple{}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+section {
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 14%;
+    margin-left: -155px;
+    top: 150px;
+}
+
+td {
+	border:  2px solid #333;
+	height:  100px;
+    width:  100px;
+    color: white;
+	text-align:  center;
+	vertical-align:  middle;
+	font-size:  20px;
+	cursor: pointer;
+}
