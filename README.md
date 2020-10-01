@@ -1,4 +1,4 @@
-# Tulud tulgu
+# AsusDellHP
 
 **Väike eelarve kalkulaator.**
 
