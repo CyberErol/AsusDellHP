@@ -1,133 +1,151 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
-
-html {
-}
-
-section {
-    text-align: center;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: gray;
-    font-family: 'Red Hat Display', sans-serif;
-}
-
-img {
-    margin-left: 0;
-    height: 40px;
-    width: auto;
-    border-radius: 5px;
-}
-
-table {
-    border-collapse: collapse;
-}
-  
-td {
-    border: 2px solid #333;
-    height: 100px;
-    width: 100px;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-a {
-    font-size: large;
-    font-weight: 500;
-}
-
-h2 {
-    font-size: small;
-    font-weight: 600;
-    padding: 14px 16px;
-}
-
-.year-month {
-    background-color: whitesmoke;
-    text-align: center;
-}
-
-.container {
-    justify-content: center;
-    display: flex;
-    background-color: silver;
-    left: 25%;
-}
-
-.topnav {
-    padding: 0px;
-    justify-content: left;
-    overflow: hidden;
-    background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
-    position: relative;
-    z-index: 1;
-}
-  
-.topnav #myLinks {
-    display: none;
-}
-  
-.topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 100;
-    display: block;
-}
-  
-.topnav a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-  
-.active a:hover {
-    background-color: silver;
-    color: black;
-}
-
-.topnav a.icon:hover {
-    background-color: silver;
-    color: black;
-}
-
-.active {
-    background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
-    color: white;
-}
-
-.phone-box{
-    display: flex;
-    width: 100%;
-    background-color:;
-}
-.phone-time{
-    font-size: 20px;
-}
-.phone-end{
-    padding-top: 4px;
-    display: flex;
-    font-size: 12px;
-    flex-direction: row-reverse;
-}
-.where{
-    font-size: 12px;
-    padding-top: 4px;
-}
-.big-name{
-    font-size: 20px;
-}
-.time{
-    border-right: red 2px solid;
-    padding-right: 5px;
-}
-.phone-info{
-    padding-left: 9px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="https://www.iconfinder.com/data/icons/school-and-education-glyph-1/32/graduation_1-512.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="topnav">
+		<a href="#Koduleht" >Kuressaare Ametikool</a>
+		<div id="myLinks" class="active">
+		  <a href="#AK">Akadeemiline kalender</a>
+		  <a href="#TP">Tunniplaan</a>
+		  <a href="#KK">Kooliõppekavad</a>
+		  <a href="#LS">Logi Sisse</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<main>
+		<div class="year-month">
+			<div>
+				<a>Kolmapäev, 30. september</a>
+			</div>
+		</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Program. Back-end (K204)</div>
+						<div class="where">Janek Mander, TA-19</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">12:45</div>
+						<div class="phone-end">14:15</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">14:30</div>
+						<div class="phone-end">15:55</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+		<div class="year-month">
+			<div>
+				<a>Neljapäev, 1. oktoober</a>
+			</div>
+		</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Matemaatika (Õ205)</div>
+						<div class="where">Peeter Õun, TAK-21</div>
+					</div>
+				</div>
+			</div>
+		<div class="year-month">
+			<div>
+				<a>Reede, 2. oktoober</a>
+			</div>
+		</div>
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">8:30</div>
+						<div class="phone-end">10:00</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Andmebaasid (K204)</div>
+						<div class="where">Andrus Naulainen, TA-19</div>
+					</div>
+				</div>
+			</div>	
+			<div class="class-time">
+				<div class="phone-box">
+					<div class="time">
+						<div class="phone-time">10:11</div>
+						<div class="phone-end">11:45</div>
+					</div>
+					<div class="phone-info">
+						<div class="big-name">Inglise Keel (K204)</div>
+						<div class="where">Ian Erik Oettersson, TA-19</div>
+					</div>
+				</div>
+			</div>	
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
