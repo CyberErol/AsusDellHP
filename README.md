@@ -19,7 +19,7 @@ Luua prototüüp uuest kasutajasõbralikust tunniplaanist.
 ## Töö käik
 
 ### Kommunikatsioon
-Suhtluskanalid: **Slack**, **Github**, **Microsoft Teams**.
+Suhtluskanalid: **Slack**, **Microsoft Teams**.
 
 ### Ülesanded
 **1.päev**
@@ -54,7 +54,7 @@ Juba esimesel päeval tekkis meeskonnas hea töömeeleolu ja sidusus. Keegi ei j
 - Tegevuste dokumenteerimine, GitHub´is issuede lisamine ja administreerimine, kokkuvõte projektitööst - Eva.
 
 ### Kasutatud tarkvara:
-**Figma** (prototüübi loomine), **Visual Studio Code** (programmeerimine)
+**Github** (projekti haldamine), **Figma** (prototüübi loomine), **Visual Studio Code** (programmeerimine)
 
 ### Meie toote prototüüp
 
@@ -62,7 +62,7 @@ https://www.figma.com/file/dV9jhXDDsPuNlxvRjtMMqL/AsusDellHP?node-id=22%3A267
 
 ### Meie meeskonna toode:
 
-live link
+https://ta19trumm.itmajakas.ee/Tunniplaan/#Koduleht 
 
 
 
