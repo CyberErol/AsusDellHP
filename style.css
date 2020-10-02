@@ -21,21 +21,6 @@ img {
     border-radius: 5px;
 }
 
-table {
-    border-collapse: collapse;
-}
-  
-td {
-    border: 2px solid #333;
-    height: 100px;
-    width: 100px;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 a {
     font-size: large;
     font-weight: 500;
@@ -52,11 +37,14 @@ h2 {
     text-align: center;
 }
 
-.container {
-    justify-content: center;
-    display: flex;
-    background-color: silver;
-    left: 25%;
+.calendar {
+    display: block;
+}
+
+.time {
+    margin: 10px;
+    background-color: #485fed;
+    border-radius: 10px;
 }
 
 .topnav {
