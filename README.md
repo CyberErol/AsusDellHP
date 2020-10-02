@@ -11,7 +11,7 @@ Liikmed:
 - Marcus
 
 ## Projekti nimi
-# Tunniplaan
+# TUNNIPLAAN
 
 ## Projekti eesmärk
 Luua prototüüp uuest kasutajasõbralikust tunniplaanist. 
