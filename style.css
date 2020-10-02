@@ -1,151 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title></title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="https://www.iconfinder.com/data/icons/school-and-education-glyph-1/32/graduation_1-512.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<div class="topnav">
-		<a href="#Koduleht" >Kuressaare Ametikool</a>
-		<div id="myLinks" class="active">
-		  <a href="#AK">Akadeemiline kalender</a>
-		  <a href="#TP">Tunniplaan</a>
-		  <a href="#KK">Kooliõppekavad</a>
-		  <a href="#LS">Logi Sisse</a>
-		</div>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		  <i class="fa fa-bars"></i>
-		</a>
-	</div>
-	<main>
-		<div class="year-month">
-			<div>
-				<a>Kolmapäev, 30. september</a>
-			</div>
-		</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Program. Back-end (K204)</div>
-						<div class="where">Janek Mander, TA-19</div>
-					</div>
-				</div>
-			</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">12:45</div>
-						<div class="phone-end">14:15</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">14:30</div>
-						<div class="phone-end">15:55</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-		<div class="year-month">
-			<div>
-				<a>Neljapäev, 1. oktoober</a>
-			</div>
-		</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Matemaatika (Õ205)</div>
-						<div class="where">Peeter Õun, TAK-21</div>
-					</div>
-				</div>
-			</div>
-		<div class="year-month">
-			<div>
-				<a>Reede, 2. oktoober</a>
-			</div>
-		</div>
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">8:30</div>
-						<div class="phone-end">10:00</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Andmebaasid (K204)</div>
-						<div class="where">Andrus Naulainen, TA-19</div>
-					</div>
-				</div>
-			</div>	
-			<div class="class-time">
-				<div class="phone-box">
-					<div class="time">
-						<div class="phone-time">10:11</div>
-						<div class="phone-end">11:45</div>
-					</div>
-					<div class="phone-info">
-						<div class="big-name">Inglise Keel (K204)</div>
-						<div class="where">Ian Erik Oettersson, TA-19</div>
-					</div>
-				</div>
-			</div>	
-	</main>
-	<script src="script.js"></script>
-</body>
-</html>
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+
+html {
+}
+
+section {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    margin-left: 0;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+}
+
+a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: small;
+    font-weight: 600;
+    padding: 14px 16px;
+}
+
+.year-month {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+.calendar {
+    display: block;
+}
+
+.time {
+    border-right: red 2px solid;
+    padding: 5px;
+}
+
+.topnav {
+    padding: 0px;
+    justify-content: left;
+    overflow: hidden;
+    background: linear-gradient(to left, #4A35C2, rgba(255, 0, 212, .527)), #485fed;
+    position: relative;
+    z-index: 1;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    display: block;
+}
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.active a:hover {
+    background-color: rgba(255, 255, 255, .233);
+    color: white;
+}
+
+.topnav a.icon:hover {
+    background-color: rgba(255, 255, 255, .233);
+    color: white;
+}
+
+.active {
+    background: linear-gradient(to left, #4A35C2, rgba(255, 0, 212, .527)), #485fed;
+    color: white;
+}
+
+.class-time {
+    margin: 10px;
+    background: linear-gradient(to right, #525252, rgba(158, 158, 158, 0.527)), #868686;
+    border-radius: 10px;
+}
+
+.phone-box{
+    display: flex;
+    width: 100%;
+}
+
+.phone-time{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.phone-end{
+    padding-top: 4px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row-reverse;
+    color: silver;
+}
+
+.big-name{
+    padding-top: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.where{
+    font-size: 12px;
+    padding-top: 4px;
+    color: silver;
+}
+
+.phone-info{
+    padding-left: 9px;
+}
+
