@@ -27,9 +27,9 @@ Põhiline töövahend oli **Visual Studio Code**.
 ### Meeskond koosnes seitmest liikmest:
 
 - Erol
-- Arno Kosk
-- Kevin Reinov
-- Carlos Tuuling
-- Eva Bürkland
-- Tiiu Tuhkanen
+- Arno
+- Kevin
+- Carlos
+- Eva
+- Tiiu
 - Marcus
