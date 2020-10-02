@@ -53,7 +53,7 @@ Juba esimesel päeval tekkis meeskonnas hea töömeeleolu ja sidusus. Keegi ei j
 - Tegevuste dokumenteerimine, GitHub´is issuede lisamine ja administreerimine, kokkuvõte projektitööst - Eva
 
 ### Kasutatud tarkvara:
-**Figma** (prorotüübi loomine), **Visual Studio Code** (programmeerimine)
+**Figma** (prototüübi loomine), **Visual Studio Code** (programmeerimine)
 
 ### Meie toote prototüüp
 
