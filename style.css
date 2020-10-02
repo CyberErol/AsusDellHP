@@ -21,6 +21,21 @@ img {
     border-radius: 5px;
 }
 
+table {
+    border-collapse: collapse;
+}
+  
+td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 a {
     font-size: large;
     font-weight: 500;
@@ -37,14 +52,11 @@ h2 {
     text-align: center;
 }
 
-.calendar {
-    display: block;
-}
-
-.time {
-    margin: 10px;
-    background-color: #485fed;
-    border-radius: 10px;
+.container {
+    justify-content: center;
+    display: flex;
+    background-color: silver;
+    left: 25%;
 }
 
 .topnav {
@@ -91,3 +103,31 @@ h2 {
     color: white;
 }
 
+.phone-box{
+    display: flex;
+    width: 100%;
+    background-color:;
+}
+.phone-time{
+    font-size: 20px;
+}
+.phone-end{
+    padding-top: 4px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row-reverse;
+}
+.where{
+    font-size: 12px;
+    padding-top: 4px;
+}
+.big-name{
+    font-size: 20px;
+}
+.time{
+    border-right: red 2px solid;
+    padding-right: 5px;
+}
+.phone-info{
+    padding-left: 9px;
+}
