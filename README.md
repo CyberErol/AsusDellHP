@@ -56,11 +56,11 @@ Juba esimesel päeval tekkis meeskonnas hea töömeeleolu ja sidusus. Keegi ei j
 ### Kasutatud tarkvara:
 **Github** (projekti haldamine), **Figma** (prototüübi loomine), **Visual Studio Code** (programmeerimine)
 
-### Meie toote prototüüp
+## Meie toote prototüüp
 
 https://www.figma.com/file/dV9jhXDDsPuNlxvRjtMMqL/AsusDellHP?node-id=22%3A267
 
-### Meie meeskonna toode:
+## Meie meeskonna toode:
 
 https://ta19trumm.itmajakas.ee/Tunniplaan/#Koduleht 
 
