@@ -14,6 +14,10 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 }
 
+main {
+    margin-top: 10px;
+}
+
 img {
     margin-left: 0;
     height: 40px;
@@ -34,9 +38,19 @@ h2 {
     padding: 14px 16px;
 }
 
-.year-month {
-    background-color: rgb(54, 54, 54);
+.day-month {
+    background-color: rgba(255, 0, 212, .1);
     text-align: center;
+    padding: 2px;
+}
+
+.month {
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    background: rgba(255, 0, 212, .05);
+    color: whitesmoke;
+    z-index: 1;
 }
 
 .calendar {
@@ -46,6 +60,7 @@ h2 {
 .time {
     border-right: red 2px solid;
     padding: 5px;
+    width: 50px;
 }
 
 .topnav {
@@ -53,8 +68,10 @@ h2 {
     justify-content: left;
     overflow: hidden;
     background: linear-gradient(to left, #4A35C2, rgba(255, 0, 212, .527)), #485fed;
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 1;
+    
 }
   
 .topnav #myLinks {
@@ -94,7 +111,6 @@ h2 {
 
 .class-time {
     margin: 10px;
-    background: linear-gradient(to right, #525252, rgba(158, 158, 158, 0.527)), #868686;
     border-radius: 10px;
 }
 
