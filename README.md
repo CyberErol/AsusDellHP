@@ -49,8 +49,9 @@ Juba esimesel päeval tekkis meeskonnas hea töömeeleolu ja sidusus. Keegi ei j
 - Selgitasime lähteülesannet, analüüsisime olemasolevat lahendust ja viisime läbi ajurünnaku uue lahenduse leidmiseks - seda tegime kõik koos.
 - Viisime läbi kasutajauuringu - Arno ja Kevin.
 - Lõime prototüübi Figmas - Kevin, Arno ja Marcus oli põhilised disainerid, Tiiu otsis sobiva fondi, Carlos häid disaininäiteid.
-- Toote ehitamine Visual Studio Code´is - peamiselt Erol, Arno ja Kevin, kes on II kursuse õpilased ja seega oskajad kodeerijad. Kuna saime Eroli koodikirjutamist live´is jälgida, oli see Evale, Tiiule ja Arnole suurepärane võimalus ka õppimiseks.
-- Tegevuste dokumenteerimine, GitHub´is issuede lisamine ja administreerimine, kokkuvõte projektitööst - Eva
+- Toote ehitamine Visual Studio Code´is - peamiselt Erol, Arno ja Kevin, kes on II kursuse õpilased ja seega oskajad kodeerijad. Kuna saime Eroli koodikirjutamist live´is jälgida, oli see Evale, Tiiule ja Carlosele suurepärane võimalus ka õppimiseks.
+- Toote Zone keskkonda üles laadimine - Carlos.
+- Tegevuste dokumenteerimine, GitHub´is issuede lisamine ja administreerimine, kokkuvõte projektitööst - Eva.
 
 ### Kasutatud tarkvara:
 **Figma** (prototüübi loomine), **Visual Studio Code** (programmeerimine)
