@@ -1,46 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
 
+html {
+}
+
 section {
-  text-align: center;
-}
-body {
-  background-color: black;
-}
-table {
-    border-collapse: collapse;
-    position: absolute;
-    left: 14%;
-    margin-left: -10px;
-    top: 150px;
-  }
-
-  td {
-    border: 2px solid #333;
-    height: 100px;
-    width: 100px;
-    color: #8676ec;
     text-align: center;
-    vertical-align: middle;
-    font-size: 20px;
-    cursor: pointer;
-  }
+}
 
-  h1 {
-      font-size: 20px;
-      color: #8676ec;
-  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: 'Red Hat Display', sans-serif;
+}
 
-  h2 {
-      color: #8676ec;
-      font-size: 20px;
-      margin-left: 590px;
-      margin-top: 100px;
-  }
+img {
+    margin-left: 0;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+}
 
-@media only screen and (max-width: 800px) {
-  body {
+a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: small;
+    font-weight: 600;
+    padding: 14px 16px;
+}
+
+.year-month {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+.calendar {
+    display: block;
+}
+
+.time {
+    border-right: red 2px solid;
+    padding: 5px;
+}
+
+.topnav {
+    padding: 0px;
+    justify-content: left;
+    overflow: hidden;
+    background: linear-gradient(to left, #4A35C2, rgba(255, 0, 212, .527)), #485fed;
+    position: relative;
+    z-index: 1;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active a:hover {
+    background-color: rgba(255, 255, 255, .233);
+    color: white;
+}
+
+.topnav a.icon:hover {
+    background-color: rgba(255, 255, 255, .233);
+    color: white;
+}
+
+.active {
+    background: linear-gradient(to left, #4A35C2, rgba(255, 0, 212, .527)), #485fed;
+    color: white;
+}
+
+.class-time {
+    margin: 10px;
+    background: linear-gradient(to right, #525252, rgba(158, 158, 158, 0.527)), #868686;
+    border-radius: 10px;
+}
+
+.phone-box{
     display: flex;
-    flex-direction: column;
-    background-color: black;
-  }
+    width: 100%;
+}
+
+.phone-time{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.phone-end{
+    padding-top: 4px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row-reverse;
+    color: silver;
+}
+
+.big-name{
+    padding-top: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.where{
+    font-size: 12px;
+    padding-top: 4px;
+    color: silver;
+}
+
+.phone-info{
+    padding-left: 9px;
 }
