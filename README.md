@@ -12,7 +12,7 @@ Meie tehtud lehekülg on tunniplaan
 
 ### Siit leiad meie figma prototüübi
 
-figma link
+https://www.figma.com/file/dV9jhXDDsPuNlxvRjtMMqL/AsusDellHP?node-id=22%3A267
 
 ### Kommunikatsioon
 
