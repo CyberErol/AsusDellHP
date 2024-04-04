@@ -2,7 +2,6 @@
 # AsusDellHP
 
 Liikmed:
-- Erol
 - Arno
 - Kevin
 - Carlos
